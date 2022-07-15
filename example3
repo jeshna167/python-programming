@@ -1,0 +1,34 @@
+class Book :
+    def __init__(self,name,color,price,author):
+        self.name=name
+        self.color=color
+        self.price=price
+        self.author=author
+    def book(self):
+        print('',self.name," for ",self.price)
+        print(f"I brought  {self.name}for {self.price}")
+        print("I brought {}of {}color".format(self.name,self.color))
+
+c1=Book("book 1 :cinderella stays late","lavender",100,"joan hulab, suzzane willams")
+c1.book()
+
+c2=Book("book 2:red riding hood gets lost","blue",100,"joan hulob, suzzane willams")
+c2.book()
+
+c3=Book("book 3:snow white lucks out","pink",100,"joan hulob, suzzane willams")
+c3.book()
+
+c2=Book("book 4:rupunzel cuts lose","light green",100,"joan hulob, suzzane willams")
+c2.book()
+
+c2=Book("book 5:sleeping beauty dreams big","purple",100,"joan hulob, suzzane willams")
+c2.book()
+
+c2=Book("book 6:golilocks breacks in","dark blue",100,"joan hulob, suzzane willams")
+c2.book()
+
+c2=Book("book 7:snowflake freezes up","light blue",100,"joan hulob, suzzane willams")
+c2.book()
+
+c2=Book("book 8:gretel ","orange",100,"joan hulob, suzzane willams")
+c2.book()
