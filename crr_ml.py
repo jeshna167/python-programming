@@ -5,7 +5,6 @@ lst_miss=[]
 lst_scramble = []
 
 n = int(input("num of elements:"))
-
 for i in range(0,n):
     words_str=input()
     lst_orig.append(words_str)
